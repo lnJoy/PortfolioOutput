@@ -6,7 +6,7 @@
     include('dbcon.php');
 
 
-    $stmt = $con->prepare('select * from insertdata');
+    $stmt = $con->prepare('select * from [tablename]');
     $stmt->execute();
 
     if($stmt->rowCount() > 0)

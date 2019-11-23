@@ -1,9 +1,9 @@
 <?php
 
-    $host = '34.84.90.157';
-    $username = 'root'; # MySQL 계정 아이디
-    $password = 'Kjh87279744@@'; # MySQL 계정 패스워드
-    $dbname = 'adinput';  # DATABASE 이름
+    $host = 'IP';
+    $username = 'user'; # MySQL 계정 아이디
+    $password = 'pass'; # MySQL 계정 패스워드
+    $dbname = 'name';  # DATABASE 이름
 
 
     $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');

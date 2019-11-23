@@ -39,7 +39,7 @@ import java.util.ArrayList;
 
 public class ItemActivity extends AppCompatActivity {
 
-    private static String IP_ADDRESS = "34.84.90.157";
+    private static String IP_ADDRESS = "IPADRESS";
     private static String TAG = "DATABASE";
 
     private static final int MY_PERMISSION_STORAGE = 1111;
